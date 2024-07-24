@@ -1,0 +1,75 @@
+.navbar {
+  /* background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)); */
+  width: 100% !important;
+  color: #fff !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  z-index: 10 !important;
+}
+
+.nav-btn {
+  color: #000 !important;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand,
+.navbar .dropdown-toggle {
+  color: white !important;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+  background-color: #000 !important;
+  color: #fffcfc !important; /* If you need to style dropdown items specifically */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.custom-width {
+  width: 180px !important;
+}
+
+.custom-padding {
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+}
+
+.nav-item {
+  padding-left: 25px !important;
+}
+
+.dark-nav {
+  background: #212ea0;
+  transition: 0.5s;
+}
+@media (max-width: 1000px) {
+  .logo {
+    width: 140px !important;
+  }
+  nav ul li {
+    margin: 10px 15px;
+  }
+}
+@media (max-width: 1200px) {
+  nav {
+    padding: 15px 0;
+  }
+  nav ul {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #212ea0;
+    z-index: -1;
+    width: 200px;
+    padding-top: 70px;
+    transition: 0.5s;
+    bottom: 0;
+  }
+
+  nav ul li{
+    margin: 25px 40px;
+    display: block;
+  }
+}

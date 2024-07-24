@@ -1,0 +1,41 @@
+/* main.css */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+* {
+  font-family: "Outfit", sans-serif !important;
+
+  box-sizing: border-box !important;
+}
+/* body {
+  background-color: #333 !important;
+} */
+
+.container {
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+}
+
+.btn {
+  background: #fff;
+  color: #212121;
+  padding: 10px 20px !important;
+  font-size: 16px !important;
+  border-radius: 30px !important;
+  cursor: pointer !important;
+  border: 0 !important;
+  outline: 0 !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn img {
+  width: 20px;
+  margin-left: 10px;
+}
+
+.btn.dark-btn {
+  color: #fff;
+  background: #212ea2;
+}
