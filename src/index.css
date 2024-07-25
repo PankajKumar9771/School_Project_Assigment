@@ -1,15 +1,10 @@
-/* main.css */
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 * {
   font-family: "Outfit", sans-serif !important;
-
   box-sizing: border-box !important;
 }
-/* body {
-  background-color: #333 !important;
-} */
 
 .container {
   padding-left: 10% !important;

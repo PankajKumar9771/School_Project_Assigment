@@ -45,6 +45,9 @@
   opacity: 1;
   padding-top: 0;
 }
+.caption p{
+text-align: center;
+}
 
 
 @media (max-width: 650px){

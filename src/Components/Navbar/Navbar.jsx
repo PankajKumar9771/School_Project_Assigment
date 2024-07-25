@@ -1,32 +1,40 @@
 import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo from "../../assets/logo.png";
-import "./Navbar.css";
 import { Link } from "react-scroll";
+import { NavLink, useLocation } from "react-router-dom";
+import "./Navbar.css";
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
-      setSticky(window.scrollY > 50);
+      if (location.pathname === "/") {
+        setSticky(window.scrollY > 50);
+      }
     };
 
-    window.addEventListener("scroll", handleScroll);
+    if (location.pathname === "/") {
+      window.addEventListener("scroll", handleScroll);
+    } else {
+      setSticky(false); 
+    }
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [location.pathname]);
 
   return (
     <nav
-      className={`navbar  navbar-expand-xl custom-padding ${
-        sticky ? "dark-nav" : ""
+      className={`navbar navbar-expand-xl custom-padding ${
+        sticky || location.pathname !== "/" ? "dark-nav" : ""
       }`}
     >
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          <img className="custom-width" src={logo} alt="logo" />
+        <a className="navbar-brand" href="/">
+          <h3 className="custom-width">Springdale</h3>
         </a>
         <button
           className="navbar-toggler"
@@ -45,70 +53,45 @@ const Navbar = () => {
         >
           <ul className="navbar-nav">
             <li className="nav-item cursor-pointer">
-              <Link
-                className="nav-link"
-                to="hero"
-                smooth={true}
-                offset={0}
-                duration={500}
-              >
+              <NavLink className="nav-link" to="/" exact>
                 Home
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item cursor-pointer">
-              <Link
-                className="nav-link"
-                to="program"
-                smooth={true}
-                offset={-260}
-                duration={500}
-              >
-                Program
-              </Link>
+              <NavLink className="nav-link" to="/achedemics">
+                Academics
+              </NavLink>
             </li>
             <li className="nav-item cursor-pointer">
-              <Link
-                className="nav-link"
-                to="about"
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
+              <NavLink className="nav-link" to="/about">
                 About Us
-              </Link>
+              </NavLink>
+            </li>
+
+            <li className="nav-item cursor-pointer">
+              <NavLink className="nav-link" to="/faculity">
+                Faculity
+              </NavLink>
             </li>
             <li className="nav-item cursor-pointer">
-              <Link
-                className="nav-link"
-                to="campus"
-                smooth={true}
-                offset={-260}
-                duration={500}
-              >
-                Campus
-              </Link>
+              <NavLink className="nav-link" to="/admission">
+                Admission
+              </NavLink>
             </li>
             <li className="nav-item cursor-pointer">
-              <Link
-                className="nav-link"
-                to="testimonials"
-                smooth={true}
-                offset={-260} // Adjust this value as needed
-                duration={500}
-              >
-                Testimonials
-              </Link>
+              <NavLink className="nav-link" to="/gallery">
+                Gallery
+              </NavLink>
             </li>
             <li className="nav-item cursor-pointer">
-              <Link
-                className="nav-btn btn"
-                to="contact"
-                smooth={true}
-                offset={-260}
-                duration={500}
-              >
-                Contact Us
-              </Link>
+              <NavLink className="nav-link" to="/students">
+                Students
+              </NavLink>
+            </li>
+            <li className="nav-item cursor-pointer">
+              <NavLink to="/contact">
+                <button className="nav-btn btn"> Contact Us</button>
+              </NavLink>
             </li>
           </ul>
         </div>

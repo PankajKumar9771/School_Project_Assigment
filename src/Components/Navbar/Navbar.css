@@ -1,5 +1,4 @@
 .navbar {
-  /* background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)); */
   width: 100% !important;
   color: #fff !important;
   position: fixed !important;
@@ -20,7 +19,7 @@
 
 .navbar .dropdown-menu .dropdown-item {
   background-color: #000 !important;
-  color: #fffcfc !important; /* If you need to style dropdown items specifically */
+  color: #fffcfc !important;
 }
 
 .navbar-toggler-icon {
@@ -37,7 +36,7 @@
 }
 
 .nav-item {
-  padding-left: 25px !important;
+  padding-left: 10px !important;
 }
 
 .dark-nav {
