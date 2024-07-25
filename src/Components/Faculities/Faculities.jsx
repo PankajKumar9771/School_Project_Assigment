@@ -49,7 +49,7 @@ const Faculities = () => {
                 <div>
                   <h3> John Doe</h3>
                   <span>
-                    Principal, M.Ed, 20 years of experience in educational
+                    Principal, M.Ed, 20 years Awarded in educational of experience in educational
                     administration
                   </span>
                 </div>
@@ -80,7 +80,7 @@ const Faculities = () => {
                 <div>
                   <h3> Emily Johnson</h3>
                   <span>
-                    English Teacher, M.A. in English, 10 years of teaching
+                    English Teacher, M.A. in English,  10 years of teaching
                     experience.{" "}
                   </span>
                 </div>
