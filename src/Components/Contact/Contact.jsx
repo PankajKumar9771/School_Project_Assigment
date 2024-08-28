@@ -51,7 +51,7 @@ const Contact = () => {
           </li>
           <li>
             <img src={phone_icon} alt="" />
-            +1213 2342 434
+            +91 9771774088
           </li>
           <li>
             <img src={location_icon} alt="" />

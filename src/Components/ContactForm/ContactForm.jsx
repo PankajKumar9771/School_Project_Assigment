@@ -46,11 +46,11 @@ const ContactForm = () => {
         </p>
         <ul>
           <li>
-            <img src={mail_icon} alt="" /> info@springdale.edu
+            <img src={mail_icon} alt="" />pankaj9771774088@gmail.com
           </li>
           <li>
             <img src={phone_icon} alt="" />
-            +1 (123) 456-7890
+            +91 9771774088
           </li>
           <Link to={"/contact"}>
             <li>
