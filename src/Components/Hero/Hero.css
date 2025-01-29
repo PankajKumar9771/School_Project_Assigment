@@ -1,6 +1,6 @@
 .hero {
   background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)),
-    url("../../assets/hero.png");
+    url("../../assets/library-7408106_1280.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -8,7 +8,6 @@
   align-items: center;
   justify-content: center;
 }
-
 
 .hero-text {
   text-align: center;

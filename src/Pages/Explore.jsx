@@ -8,8 +8,10 @@ const Explore = () => {
     <div>
       <Hero />
       <Title
-        subtitle={"Welcome to Springdale Public School."}
-        title={" where we nurture young minds for a brighter future."}
+        subtitle={"Welcome to Parthik Libray."}
+        title={
+          "Where we nurture young minds and inspire a brighter future through the power of books and learning."
+        }
       />
       <Banner />
     </div>

@@ -11,21 +11,36 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-content-left">
           <Link to={"/"} className="logo">
-            <h3>Springdale</h3>
+            <h3>ParthikLibrary</h3>
           </Link>
 
           <p>
-            Welcome to Springdable Public School. Where we nurture young minds
-            for a brighter future.
+            Welcome to ParthikLibrary. Where we nurture young minds for a
+            brighter future.
           </p>
           <div className="footer-social-icon">
-            <img src={facebook_icon} alt="" />
-            <img src={linkedin_icon} alt="" />
-            <img src={twitter_icon} alt="" />
+            <a
+              href="https://www.facebook.com/pankajkumar.patel.756412"
+              target="_blank"
+            >
+              <img src={facebook_icon} alt="" />
+            </a>
+            <a
+              href="https://www.facebook.com/pankajkumar.patel.756412"
+              target="_blank"
+            >
+              <img src={linkedin_icon} alt="" />
+            </a>
+            <a
+              href="https://www.facebook.com/pankajkumar.patel.756412"
+              target="_blank"
+            >
+              <img src={twitter_icon} alt="" />
+            </a>
           </div>
         </div>
         <div className="footer-content-center">
-          <h2>School</h2>
+          <h2>Library</h2>
           <ul>
             <Link className="link" to={"/"}>
               <li>Home</li>
@@ -40,14 +55,14 @@ const Footer = () => {
         <div className="footer-content-right">
           <h2>Get in Touch</h2>
           <ul>
-            <li>+91 9771774088</li>
-            <li>pankajkumar9771774088@gmail.com</li>
+            <li>+91 97717740XX</li>
+            <li>pankaj36257@gmail.com</li>
           </ul>
         </div>
       </div>
       <hr />
       <p className="footer-copyright">
-        Copyright 2024 &copy; Springdale Public School - All Right Reserved
+        Copyright 2025 &copy; ParthikLibrary - All Right Reserved
       </p>
     </div>
   );

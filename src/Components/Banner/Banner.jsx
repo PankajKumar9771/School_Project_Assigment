@@ -1,8 +1,9 @@
 import React from "react";
 import { Carousel, Container } from "react-bootstrap";
-import science_fest from "../../assets/Science.jpg";
-import cultural from "../../assets/Cultural.jpg";
-import sports from "../../assets/sports.jpg";
+import wifi from "../../assets/wifi.webp";
+import silent from "../../assets/silent.jpeg";
+import books from "../../assets/books.jpg";
+
 import "./Banner.css";
 
 const Banner = () => {
@@ -10,28 +11,24 @@ const Banner = () => {
     <Container className="mt-5">
       <Carousel>
         <Carousel.Item>
-          <img className="d-block w-100" src={sports} alt="Annual Sports Day" />
+          <img className="d-block w-100" src={wifi} alt="High Speed Wifi" />
           <Carousel.Caption className="carousel-caption">
-            <h3>Annual Sports Day</h3>
-            <p>Celebrating Excellence in Sports</p>
+            <h3>High Speed Wifi</h3>
+            <p>Use unlimited high speed Internet</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={science_fest}
-            alt="Science Exhibition"
-          />
+          <img className="d-block w-100" src={books} alt="books" />
           <Carousel.Caption className="carousel-caption">
-            <h3>Science Exhibition</h3>
-            <p>Showcasing Student Innovations</p>
+            <h3>Books</h3>
+            <p>Explore Many Subjects Books</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={cultural} alt="Cultural Fest" />
+          <img className="d-block w-100" src={silent} alt="Cultural Fest" />
           <Carousel.Caption className="carousel-caption">
-            <h3>Cultural Fest</h3>
-            <p>Embracing Diversity and Creativity</p>
+            <h3>Silent Environment</h3>
+            <p>Here You can Concentrate on Study.</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

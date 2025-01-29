@@ -14,10 +14,11 @@ const TeachingMethod = () => {
       >
         <Row>
           <Col>
-            <h2 className="text-primary">Teaching Methodologies</h2>
+            <h2 className="text-primary">Library</h2>
             <p>
-              We use a blend of traditional and modern teaching techniques to
-              cater to different learning styles.
+              We provide a vast selection of fiction, non-fiction, reference
+              books, and digital content, along with quiet study areas and
+              collaborative learning spaces.
             </p>
           </Col>
         </Row>
@@ -30,8 +31,8 @@ const TeachingMethod = () => {
           <Col>
             <h2 className="text-primary">Educational Resources</h2>
             <p>
-              Digital classrooms, interactive learning modules, and access to
-              online educational platforms.
+              A comprehensive collection of books, e-books, research papers, and
+              access to global digital libraries and online knowledge platforms.
             </p>
           </Col>
         </Row>

@@ -41,16 +41,16 @@ const ContactForm = () => {
           Send us a message <img src={msg_icon} alt="" />
         </h3>
         <p>
-          Springdale Public School, 123 Education Lane, Cityville,
+          ParthikLibrary, 123 Education Lane, Cityville,
           State:UttarPradesh, ZIP:250005
         </p>
         <ul>
           <li>
-            <img src={mail_icon} alt="" />pankaj9771774088@gmail.com
+            <img src={mail_icon} alt="" />pankaj36257@gmail.com
           </li>
           <li>
             <img src={phone_icon} alt="" />
-            +91 9771774088
+            +91 977177XXXX
           </li>
           <Link to={"/contact"}>
             <li>

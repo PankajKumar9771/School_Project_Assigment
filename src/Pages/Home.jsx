@@ -16,14 +16,14 @@ const Home = () => {
       <div>
         <Hero />
         <div className="container">
-          <Title subtitle={"Our Program"} title={"What We Offer"} />
+          <Title subtitle={"Our Features"} title={"What We Provide"} />
           <Programs />
         </div>
         <About setPlayState={setPlayState} />
         <Title subtitle={"Gallery"} title={"Campus Photos"} />
         <Campus />
-        <Title subtitle={"Faculity"} title={"Our Fucility"} />
-        <Faculities />
+        {/* <Title subtitle={"Facilities"} title={"Our Facilities"} />
+        <Faculities /> */}
         <Title subtitle={"Contact us"} title={"Get in Touch"} />
         <ContactForm />
 

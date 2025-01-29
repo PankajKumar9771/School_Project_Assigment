@@ -20,9 +20,8 @@ const Hero = () => {
       <div className="hero-text">
         <h1>We Ensure better education for a better world.</h1>
         <p>
-          Our cutting-edge curriculum is designed to empower students with the
-          knowledge, skills, and experience needed to excel in the dynamic field
-          of education.
+          Discover worlds within pages, where every book is a gateway to endless
+          knowledge, adventure, and imagination.
         </p>
         <button className="btn" onClick={handleExploreClick}>
           Explore More <img src={dark_arrow} alt="" />

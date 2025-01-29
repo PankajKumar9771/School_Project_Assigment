@@ -6,7 +6,7 @@ import TeachingMethod from "../Components/TeachingMethod/TeachingMethod";
 const Achedemics = () => {
   return (
     <div>
-      <Title subtitle={"Our Program"} title={"What We Offer"} />
+      <Title subtitle={"Our Features"} title={"What We Provide"} />
       <Programs />
      <TeachingMethod/>
     </div>

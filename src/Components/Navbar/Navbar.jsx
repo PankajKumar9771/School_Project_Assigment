@@ -18,7 +18,7 @@ const Navbar = () => {
     if (location.pathname === "/") {
       window.addEventListener("scroll", handleScroll);
     } else {
-      setSticky(false); 
+      setSticky(false);
     }
 
     return () => {
@@ -34,7 +34,7 @@ const Navbar = () => {
     >
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
-          <h3 className="custom-width">Springdale</h3>
+          <h3 className="custom-width">ParthikLibrary</h3>
         </a>
         <button
           className="navbar-toggler"
@@ -59,7 +59,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item cursor-pointer">
               <NavLink className="nav-link" to="/achedemics">
-                Academics
+                Facility
               </NavLink>
             </li>
             <li className="nav-item cursor-pointer">
@@ -67,12 +67,12 @@ const Navbar = () => {
                 About Us
               </NavLink>
             </li>
-
+            {/* 
             <li className="nav-item cursor-pointer">
               <NavLink className="nav-link" to="/faculity">
                 Faculity
               </NavLink>
-            </li>
+            </li> */}
             <li className="nav-item cursor-pointer">
               <NavLink className="nav-link" to="/admission">
                 Admission
@@ -83,11 +83,11 @@ const Navbar = () => {
                 Gallery
               </NavLink>
             </li>
-            <li className="nav-item cursor-pointer">
+            {/* <li className="nav-item cursor-pointer">
               <NavLink className="nav-link" to="/students">
                 Students
               </NavLink>
-            </li>
+            </li> */}
             <li className="nav-item cursor-pointer">
               <NavLink to="/contact">
                 <button className="nav-btn btn"> Contact Us</button>
